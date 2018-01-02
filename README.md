@@ -1,13 +1,10 @@
-# com.kit.cordova.amaplocation
+# com.kit.cordova.amaplocation-liugogal
 使用高德Android定位SDK进行定位，以解决webapp中定位不准的问题
 
 ## 安装
-`cordova plugin add https://github.com/yanxiaojun617/com.kit.cordova.amaplocation --save`
+`cordova plugin add https://github.com/liugogal/com.kit.cordova.amaplocation --variable API_KEY=XXXXXXXXX --save`
 
-## 配置
-*  修改 plugin.xml(:54)文件中的高德地图android key,更多详情请看http://www.jianshu.com/p/85aceaee3b35
-
-`<meta-data android:name="com.amap.api.v2.apikey" android:value="您申请的高德地图android key"/>`
+ps:_API_KEY为在高德申请的key值_
 
 ps:_此插件android定位功能使用高德定位,ios定位功能使用苹果系统自带的定位功能,所以只需要配置android key,不需要配置ios key_
 ### ionic1调用方法
