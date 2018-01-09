@@ -2,6 +2,8 @@
 使用高德Android定位SDK进行定位，以解决webapp中定位不准的问题
 
 ## 安装
+`cordova plugin add com.kit.cordova.amaplocation-liugogal --variable API_KEY=XXXXXXXXX --save`
+
 `cordova plugin add https://github.com/liugogal/com.kit.cordova.amaplocation --variable API_KEY=XXXXXXXXX --save`
 
 ps:_API_KEY为在高德申请的key值_
