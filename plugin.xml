@@ -3,7 +3,7 @@
         xmlns:rim="http://www.blackberry.com/ns/widgets"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="com.kit.cordova.amaplocation-liugogal"
-        version="1.0.3">
+        version="1.0.4">
 
     <name>LocationPlugin</name>
     <description>Cordova Location Plugin Powerd by liugogal</description>
@@ -65,7 +65,8 @@
       <service android:name="com.amap.api.location.APSService"></service>
     </config-file>
 
-    <source-file src="src/android/AMap_Location_V3.7.0_20171218.jar" target-dir="libs"/>
+    <lib-file src="src/android/AMap_Location_V3.7.0_20171218.jar" />
+
     <source-file src="src/android/LocationPlugin.java" target-dir="src/com/kit/cordova/AMapLocation"/>
   </platform>
 
