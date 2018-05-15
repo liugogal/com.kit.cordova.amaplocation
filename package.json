@@ -1,6 +1,6 @@
 {
   "name": "com.kit.cordova.amaplocation-liugogal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cordova Location Plugin Powerd by liugogal",
   "cordova": {
     "id": "com.kit.cordova.amaplocation-liugogal",
@@ -21,7 +21,7 @@
     "cordova-ios"
   ],
   "author": "259394345@qq.com",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/liugogal/com.kit.cordova.amaplocation/issues"
   },
