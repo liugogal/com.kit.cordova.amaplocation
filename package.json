@@ -21,7 +21,7 @@
     "cordova-ios"
   ],
   "author": "259394345@qq.com",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/liugogal/com.kit.cordova.amaplocation/issues"
   },
